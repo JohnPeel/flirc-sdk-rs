@@ -1,0 +1,16 @@
+[package]
+name = "flirc-sdk-sys"
+version = "0.1.0"
+authors = ["John Peel <john@dgby.org>"]
+edition = "2018"
+links = "flirc"
+build = "build.rs"
+
+[features]
+static = []
+dynamic = []
+armv6l = []
+armv7l = []
+
+[build-dependencies]
+bindgen = "0.56"

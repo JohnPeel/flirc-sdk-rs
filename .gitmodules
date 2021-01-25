@@ -1,0 +1,4 @@
+[submodule "flirc-sdk-sys/sdk"]
+	path = flirc-sdk-sys/sdk
+	url = https://github.com/flirc/sdk.git
+	branch = master
